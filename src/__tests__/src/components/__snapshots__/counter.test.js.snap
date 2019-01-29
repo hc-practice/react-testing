@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> renders correctly 1`] = `
+<section
+  className="counter"
+>
+  <a
+    className="downClick"
+    href="#"
+    onClick={[Function]}
+  >
+    &lt;&lt;
+  </a>
+  <span
+    className="count "
+  >
+    0
+  </span>
+  <a
+    className="upClick"
+    href="#"
+    onClick={[Function]}
+  >
+    &gt;&gt;
+  </a>
+</section>
+`;
