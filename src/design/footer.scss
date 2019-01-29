@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display");
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Major Mono Display", monospace;
+}

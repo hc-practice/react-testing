@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display");
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Major Mono Display", monospace;
+
+  &.positive {
+    color: green;
+  }
+
+  &.negative {
+    color: red;
+  }
+}
+
+.downClick {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Major Mono Display", monospace;
+}
+
+.upClick {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Major Mono Display", monospace;
+}
+
+.counter {
+  padding: 25px;
+}

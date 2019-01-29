@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display");
+
+ul {
+  padding: 15px;
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+ul > li {
+  padding: 10px;
+  font-size: 2em;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Major Mono Display", monospace;
+}
