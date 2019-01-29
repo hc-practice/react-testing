@@ -27,4 +27,9 @@ describe("<Counter />", () => {
     expect(component.state("count")).toBe(-1);
     expect(component.find("span").text()).toContain(-1);
   });
+
+  it('renders correctly', () => {
+    const tree = renderer.create(<Counter />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });
